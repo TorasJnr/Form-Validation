@@ -44,6 +44,15 @@
 
         }
 
-/* git add .
+        input{
+            width: 100%;
+            padding: 8px 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            outline: none;
+            margin-bottom: 1.5rem;
+        }
+
+git add .
 git commit -m "css commit"
-git push */
+git push
