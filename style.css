@@ -75,6 +75,15 @@
             position: relative;
         }
 
+        .font{
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            cursor: pointer;
+            color: red;
+            background-color: white;
+        }
+
 git add .
 git commit -m "css commit"
 git push
