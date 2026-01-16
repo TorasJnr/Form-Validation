@@ -84,6 +84,14 @@
             background-color: white;
         }
 
+        .click{
+            display: none;
+        }
+        .click1{
+            display: none;
+            color: green;
+        }
+
 git add .
 git commit -m "css commit"
 git push
