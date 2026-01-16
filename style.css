@@ -37,6 +37,13 @@
             /* margin: 20px auto; */
         }
 
+        label, input{
+            cursor: pointer;
+            display: block;
+            font-family: calibri;
+
+        }
+
 /* git add .
 git commit -m "css commit"
 git push */
