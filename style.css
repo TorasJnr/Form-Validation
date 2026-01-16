@@ -24,6 +24,18 @@
             border-top-right-radius: 10px;
         }
 
+        div.reg p.gist{
+            margin-bottom: 10px;
+        }
+        form{
+            width: 100%;
+            height: fit-content;
+            padding: 20px 20px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+            /* margin: 20px auto; */
+        }
 
 /* git add .
 git commit -m "css commit"
