@@ -53,6 +53,19 @@
             margin-bottom: 1.5rem;
         }
 
+         button{
+            width: 100%;
+            border: none;
+            font-weight: bold;
+            border-radius: 5px;
+            padding: 10px 10px;
+            text-align: center;
+            cursor: pointer;
+            background-color: rgb(4, 4, 106);
+            color: white;
+            transition: all 0.5s linear;
+        }
+
 git add .
 git commit -m "css commit"
 git push
