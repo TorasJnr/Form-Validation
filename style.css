@@ -92,6 +92,9 @@
             color: rgb(4, 4, 106);
             font-size: 14px;
         }
+        .hide{
+            display: none;
+        }
 
 git add .
 git commit -m "css commit"
