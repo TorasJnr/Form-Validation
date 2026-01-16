@@ -4,7 +4,17 @@
             box-sizing: border-box;
         }
 
+         div.overall{
+             width: 25%;
+            height: fit-content;
+            /* padding: 20px 20px; */
+            /* background-color: red; */
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            margin: 20px auto;
+        }
 
-git add .
+
+/* git add .
 git commit -m "css commit"
-git push
+git push */
