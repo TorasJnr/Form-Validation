@@ -49,6 +49,15 @@ var input = document.querySelectorAll("input");
         }
     }
 
+    input[0].addEventListener("keyup", function(){
+        if(input[0].value.trim() != ""){
+            click[0].style.display = "none"
+            click1[0].style.display = "block"
+            input[0].style.border = "none"
+            error[0].style.display = "none"
+        }
+    });
+
 // git add .
 // git commit -m "Js added"
 // git push
