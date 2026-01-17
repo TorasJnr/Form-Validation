@@ -47,6 +47,7 @@ var input = document.querySelectorAll("input");
             error[3].innerHTML = "Please confirm your Password"
             return false;
         }
+    }
 
 // git add .
 // git commit -m "Js added"
