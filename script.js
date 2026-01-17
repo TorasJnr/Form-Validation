@@ -83,6 +83,10 @@ var input = document.querySelectorAll("input");
         }
     });
 
+    var show = document.querySelectorAll(".show");
+    var hide = document.querySelectorAll(".hide");
+
+
 
 // git add .
 // git commit -m "Js added"
