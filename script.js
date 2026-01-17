@@ -86,6 +86,14 @@ var input = document.querySelectorAll("input");
     var show = document.querySelectorAll(".show");
     var hide = document.querySelectorAll(".hide");
 
+    show[0].addEventListener("click", function(){
+        if(input[2].type == "password"){
+            input[2].type = "text"
+            show[0].style.display = "none"
+            hide[0].style.display = "block"
+        }
+    })
+
 
 
 // git add .
