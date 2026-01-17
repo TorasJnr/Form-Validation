@@ -38,6 +38,15 @@ var input = document.querySelectorAll("input");
             error[2].innerHTML = "Password must not be less than 6 characters"
             return false;
         }
+        else if(input[3].value.trim() == ""){
+            input[3].focus()
+            input[3].style.border = "1px solid red";
+            error[3].style.display = "block"
+            click[3].style.display = "block"
+            click1[3].style.display = "none"
+            error[3].innerHTML = "Please confirm your Password"
+            return false;
+        }
 
 // git add .
 // git commit -m "Js added"
