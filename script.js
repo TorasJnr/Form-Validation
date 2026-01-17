@@ -74,6 +74,14 @@ var input = document.querySelectorAll("input");
             error[2].style.display = "none"
         }
     });
+    input[3].addEventListener("keyup", function(){
+        if(input[3].value.trim() != ""){
+            click[3].style.display = "none"
+            click1[3].style.display = "block"
+            input[3].style.border = "none"
+            error[3].style.display = "none" 
+        }
+    });
 
 
 // git add .
