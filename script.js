@@ -47,6 +47,15 @@ var input = document.querySelectorAll("input");
             error[3].innerHTML = "Please confirm your Password"
             return false;
         }
+         else if(input[3].value != input[2].value){
+            input[3].focus()
+            input[3].style.border = "1px solid red";
+            click[3].style.display = "block"
+            click1[3].style.display = "none"
+            error[3].style.display = "block"
+            error[3].innerHTML = "Password must be the same"
+            return false;
+        }
     }
 
     input[0].addEventListener("keyup", function(){
