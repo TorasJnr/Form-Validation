@@ -132,7 +132,8 @@ var input = document.querySelectorAll("input");
             show[1].style.display = "block"
             hide[1].style.display = "none"
         }
-    })
+    }) 
+    
     
 
 
