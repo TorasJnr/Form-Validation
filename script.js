@@ -100,7 +100,13 @@ var input = document.querySelectorAll("input");
             hide[0].style.display = "none"
         }
     })
-
+    show[1].addEventListener("click", function(){
+        if(input[3].type == "password"){
+            input[3].type = "text"
+            show[1].style.display = "none"
+            hide[1].style.display = "block"
+        }
+    })
 
 
 // git add .
