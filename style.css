@@ -3,8 +3,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-
-         div.overall{
+        div.overall{
              width: 25%;
             height: fit-content;
             /* padding: 20px 20px; */
@@ -13,7 +12,6 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
             margin: 20px auto;
         }
-
         .reg{
             background-color: rgb(4, 4, 106);
             color: white;
@@ -23,7 +21,6 @@
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
         }
-
         div.reg p.gist{
             margin-bottom: 10px;
         }
@@ -50,7 +47,7 @@
             outline: none;
             margin-bottom: 1.5rem;
         }
-         button{
+        button{
             width: 100%;
             border: none;
             font-weight: bold;
@@ -107,7 +104,3 @@
             font-weight: bold;
             font-family: calibri;
         }
-
-/* git add .
-git commit -m "css commit"
-git push */
