@@ -114,6 +114,7 @@ var input = document.querySelectorAll("input");
             hide[1].style.display = "none"
         }
     })
+    
 
 
 // git add .
