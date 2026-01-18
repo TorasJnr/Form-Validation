@@ -76,14 +76,14 @@ var input = document.querySelectorAll("input");
         }
     });
 
-    // input[3].addEventListener("keyup", function(){
-    //     if(input[3].value.trim() != ""){
-    //         click[3].style.display = "none"
-    //         click1[3].style.display = "block"
-    //         input[3].style.border = "none"
-    //         error[3].style.display = "none" 
-    //     }
-    // });
+    input[3].addEventListener("keyup", function(){
+        if(input[3].value.trim() != ""){
+            click[3].style.display = "none"
+            click1[3].style.display = "block"
+            input[3].style.border = "none"
+            error[3].style.display = "none" 
+        }
+    });
     input[3].addEventListener("keyup", function(){
         if(input[3].value != input[2].value){
             click[3].style.display = "block"
