@@ -135,6 +135,7 @@ var input = document.querySelectorAll("input");
     }) 
     hide
     show
+    hide[2].addEventListener("click")
     
     
 
