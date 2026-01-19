@@ -126,9 +126,6 @@ var input = document.querySelectorAll("input");
             hide[1].style.display = "block"
         }
     })
-    hide[3].addEventListener("click", function(){
-        if(input[3].type == "text"){
-            input[3].type = "password"
     hide[1].addEventListener("click", function(){
         if(input[3].type == "text"){
             input[3].type = "password"
@@ -136,6 +133,7 @@ var input = document.querySelectorAll("input");
             hide[1].style.display = "none"
         }
     }) 
+    show 
     
     
 
