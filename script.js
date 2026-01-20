@@ -154,6 +154,7 @@ nextBtn.addEventListener('click', () => {
         clearInterval(counterLine);
         if (quiz.nextQuestion()) {
             showQuestion(quiz.getCurrentQuestion());
+            showNumber(quiz.questionIndex + 1, quiz.questions.length);
     
     
 
