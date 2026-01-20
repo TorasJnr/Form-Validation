@@ -150,6 +150,7 @@ var input = document.querySelectorAll("input");
 nextBtn.addEventListener('click', () => {
     Clear previous intervals to avoid duplicates
     function showQuestion() {
+        clearInterval(counter);
     
     
 
