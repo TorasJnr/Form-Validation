@@ -136,6 +136,8 @@ var input = document.querySelectorAll("input");
     let counter;
     let counterLine;
     const quiz = new Quiz(questions);
+
+    startBtn.addEventListener('click', () => {
     
     
 
