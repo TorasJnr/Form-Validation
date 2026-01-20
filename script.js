@@ -135,7 +135,7 @@ var input = document.querySelectorAll("input");
     }) 
     let counter;
     let counterLine;
-    cons
+    const quiz = new Quiz(questions);
     
     
 
