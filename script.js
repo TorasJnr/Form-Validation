@@ -138,6 +138,9 @@ var input = document.querySelectorAll("input");
     const quiz = new Quiz(questions);
 
     startBtn.addEventListener('click', () => {
+        document.querySelector('.start-section').classList.add('hidden');
+        quizSection.classList.remove('hidden');
+        showQuestion(quiz.getCurrentQuestion());
     
     
 
