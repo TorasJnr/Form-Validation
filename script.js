@@ -152,6 +152,7 @@ nextBtn.addEventListener('click', () => {
     function showQuestion() {
         clearInterval(counter);
         clearInterval(counterLine);
+        if (quiz.nextQuestion()) {
     
     
 
