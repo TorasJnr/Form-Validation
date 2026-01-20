@@ -147,6 +147,7 @@ var input = document.querySelectorAll("input");
         startTimer(10);
         startLine();
     });
+nextBtn.addEventListener('click', () => {
     
     
 
