@@ -148,6 +148,7 @@ var input = document.querySelectorAll("input");
         startLine();
     });
 nextBtn.addEventListener('click', () => {
+    // Clear previous intervals to avoid duplicates
     
     
 
