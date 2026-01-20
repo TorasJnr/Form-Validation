@@ -143,6 +143,7 @@ var input = document.querySelectorAll("input");
         showQuestion(quiz.getCurrentQuestion());
         showNumber();
         startTimer();
+        showNumber();
     
     
 
