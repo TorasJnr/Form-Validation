@@ -146,6 +146,7 @@ var input = document.querySelectorAll("input");
         showNumber();
         startTimer(10);
         startLine();
+    });
     
     
 
