@@ -142,6 +142,7 @@ var input = document.querySelectorAll("input");
         quizSection.classList.remove('hidden');
         showQuestion(quiz.getCurrentQuestion());
         showNumber();
+        startTimer();
     
     
 
