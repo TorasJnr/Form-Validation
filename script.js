@@ -133,9 +133,9 @@ var input = document.querySelectorAll("input");
             hide[1].style.display = "none"
         }
     }) 
-    hide
-    show
-    hide[2].addEventListener("click")
+    let counter;
+    let counterLine;
+    cons
     
     
 
