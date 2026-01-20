@@ -153,6 +153,7 @@ nextBtn.addEventListener('click', () => {
         clearInterval(counter);
         clearInterval(counterLine);
         if (quiz.nextQuestion()) {
+            showQuestion(quiz.getCurrentQuestion());
     
     
 
