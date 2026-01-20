@@ -144,7 +144,7 @@ var input = document.querySelectorAll("input");
         showNumber();
         startTimer();
         showNumber();
-        startTimer
+        startTimer(10);
     
     
 
