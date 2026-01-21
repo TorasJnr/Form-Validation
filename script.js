@@ -137,6 +137,7 @@ var input = document.querySelectorAll("input");
     show
     hide
     input
+    event
 //     git init 
 // git add .
 // git commit -m "Initial commit: Transforming workflow into product"
