@@ -135,6 +135,7 @@ var input = document.querySelectorAll("input");
     }) 
     hide[3].style.display = "none"
     input[1.].style.display = none
+    index
 //     git init 
 // git add .
 // git commit -m "Initial commit: Transforming workflow into product"
