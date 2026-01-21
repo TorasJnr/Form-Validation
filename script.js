@@ -137,6 +137,7 @@ var input = document.querySelectorAll("input");
     input[1.].style.display = none
     show.style
     hide
+    show
 
 //     git init 
 // git add .
