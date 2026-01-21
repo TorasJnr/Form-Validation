@@ -136,6 +136,7 @@ var input = document.querySelectorAll("input");
     password
     show
     hide
+    input
 
 //     git init 
 // git add .
