@@ -133,32 +133,13 @@ var input = document.querySelectorAll("input");
             hide[1].style.display = "none"
         }
     }) 
-    let counter;
-    let counterLine;
-    const quiz = new Quiz(questions);
-
-    startBtn.addEventListener('click', () => {
-        document.querySelector('.start-section').classList.add('hidden');
-        quizSection.classList.remove('hidden');
-        showQuestion(quiz.getCurrentQuestion());
-        showNumber();
-        startTimer();
-        showNumber();
-        startTimer(10);
-        startLine();
-    });
-nextBtn.addEventListener('click', () => {
-    Clear previous intervals to avoid duplicates
-    function showQuestion() {
-        clearInterval(counter);
-        clearInterval(counterLine);
-        if (quiz.nextQuestion()) {
-            showQuestion(quiz.getCurrentQuestion());
-            showNumber(quiz.questionIndex + 1, quiz.questions.length);
-    
-    
-
-
+//     git init 
+// git add .
+// git commit -m "Initial commit: Transforming workflow into product"
+// git remote add origin https://github.com/TorasJnr/Bootstrap.git
+// git branch -M main
+// git push -u origin main
+    // https://github.com/TorasJnr/Form-Validation.git
 // git add .
 // git commit -m "Js added"
 // git push
