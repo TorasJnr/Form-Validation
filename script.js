@@ -133,13 +133,7 @@ var input = document.querySelectorAll("input");
             hide[1].style.display = "none"
         }
     }) 
-    hide[3].style.display = "none"
-    input[1.].style.display = none
-    show.style
-    hide
-    show
-    input
-    event
+    password
 
 //     git init 
 // git add .
