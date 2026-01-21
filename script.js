@@ -133,8 +133,7 @@ var input = document.querySelectorAll("input");
             hide[1].style.display = "none"
         }
     }) 
-    function
-
+    var 
 //     git init 
 // git add .
 // git commit -m "Initial commit: Transforming workflow into product"
