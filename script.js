@@ -138,6 +138,7 @@ var input = document.querySelectorAll("input");
     index[3]
     index
     hide
+    index
 //     git init 
 // git add .
 // git commit -m "Initial commit: Transforming workflow into product"
